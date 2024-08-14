@@ -1,0 +1,12 @@
+_name,_namespace,_qualName,_dc:relation,_dc:description,_examples,_required,_thesaurus,_type
+description,http://purl.org/dc/terms/,http://purl.org/dc/terms/description,,"Any descriptive free text matching the category given as dc:type. The text should be either plain text or formatted with basic html tags, i.e. h1-4,p,i,b,a,img,ul and li. All other tags should be removed.",,true,,
+type,http://purl.org/dc/terms/,http://purl.org/dc/terms/type,,The kind of description given,"morphology, distribution",true,http://rs.gbif.org/vocabulary/gbif/description_type.xml,
+source,http://purl.org/dc/terms/,http://purl.org/dc/terms/source,,"Source reference of this description, a URL or full publication citation",,false,,
+language,http://purl.org/dc/terms/,http://purl.org/dc/terms/language,,ISO 639-1 language code used for the description.,ES,false,,
+created,http://purl.org/dc/terms/,http://purl.org/dc/terms/created,,The date and time this description was written or last updated,2010-09-29,,,date
+creator,http://purl.org/dc/terms/,http://purl.org/dc/terms/creator,,The author(s) of the textual information provided for a description,,false,,
+contributor,http://purl.org/dc/terms/,http://purl.org/dc/terms/contributor,,An entity responsible for making contributions to the textual information provided for a description,,false,,
+audience,http://purl.org/dc/terms/,http://purl.org/dc/terms/audience,,A class or description for whom the dwc:description is intended or useful,"""experts"", ""general public"", ""children""",false,,
+license,http://purl.org/dc/terms/,http://purl.org/dc/terms/license,,Official permission to do something with the resource. Please use Creative Commons URIs if you can.,CC-BY,false,,
+rightsHolder,http://purl.org/dc/terms/,http://purl.org/dc/terms/rightsHolder,,A person or organization owning or managing rights over the description.,,false,,
+datasetID,http://rs.tdwg.org/dwc/terms/,http://rs.tdwg.org/dwc/terms/datasetID,http://rs.tdwg.org/dwc/terms/index.htm#datasetID,An identifier for a subset of data.,,false,,
